@@ -8,8 +8,13 @@ public class Car{
   private double tankSize;
 
 
+//default constructor
+public Car()
+make = "";
+model = "";
+mpg = "";
 
-// making the car
+// making the car(custom constructor)
   public Car (String carMake, String carModel, double carmpg, double carTankSize){
     make = carMake;
     model = carModel;
